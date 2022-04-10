@@ -1,5 +1,5 @@
 apple x 2
-banana x 2
+banana x 3
 pear x 2
 strawberry x 2
 watermelon x 2
