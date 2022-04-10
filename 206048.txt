@@ -1,0 +1,129 @@
+4. 	https://github.com/stefanstoichkov/SI_2022_lab1_206048.git
+	cd SI_2022_lab1_206048/
+
+5.	touch shopping_list.txt
+	git add .
+	git commit -m "Add 5 items to the shopping list"
+	
+6.	git add .
+	git commit -m "Add quantities to the items"
+	
+7.	git branch branch1
+	git branch branch2
+	
+8.	
+commit 22380ed6daee222ed097dc3aa3a177db413eebe7 (HEAD -> master, branch2, branch1)
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:26:02 2022 +0200
+
+    Add quantities to the items.
+
+commit 7de7b21d98a294262f46b8077e1389e2a6398d18
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:24:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 9a04e14f5a4bbbba45f831287f67ac674d1cdd15 (origin/master, origin/HEAD)
+Author: stefanstoichkov <100233238+stefanstoichkov@users.noreply.github.com>
+Date:   Sun Apr 10 14:22:29 2022 +0200
+
+    Update README.md
+
+commit 1f7c55d79111c9d7607880a868aa4c69b0e65422
+Author: stefanstoichkov <100233238+stefanstoichkov@users.noreply.github.com>
+Date:   Sun Apr 10 14:22:13 2022 +0200
+
+    Initial commit
+
+9.	git push origin master
+	git checkout branch1
+	git push origin branch1
+	git checkout branch2
+	git push origin branch2
+
+10.	git checkout branch1
+
+11.	git add .
+	git commit -m "Change quantity of item #5"
+	
+12.	git checkout master
+
+13.	git add .
+	git commit -m "Change quantity of item #2"
+	
+14.	git push origin master
+	git checkout branch1
+	git push origin branch1
+	git checkout branch2
+	git push origin branch2
+	
+15.	git checkout branch2
+
+16.	git add .
+	git commit -m "Modify item #4"
+	
+17.	
+commit 9c59bd65d4791879ebc56f2afee109416c5411d5 (HEAD -> branch2)
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:33:44 2022 +0200
+
+    Modify item #4
+
+commit 22380ed6daee222ed097dc3aa3a177db413eebe7 (origin/branch2)
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:26:02 2022 +0200
+
+    Add quantities to the items.
+
+commit 7de7b21d98a294262f46b8077e1389e2a6398d18
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:24:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 9a04e14f5a4bbbba45f831287f67ac674d1cdd15
+Author: stefanstoichkov <100233238+stefanstoichkov@users.noreply.github.com>
+Date:   Sun Apr 10 14:22:29 2022 +0200
+
+    Update README.md
+
+18.	git add .
+	git commit --amend -m "Modify item #4 and add item #6"
+	
+19.	
+commit 9cfe968e6e1535549c5fbd44d0cd0327f7055a04 (HEAD -> branch2)
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:33:44 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 22380ed6daee222ed097dc3aa3a177db413eebe7 (origin/branch2)
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:26:02 2022 +0200
+
+    Add quantities to the items.
+
+commit 7de7b21d98a294262f46b8077e1389e2a6398d18
+Author: Stefan Stoichkov <stefanstoickov@ymail.com>
+Date:   Sun Apr 10 14:24:56 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 9a04e14f5a4bbbba45f831287f67ac674d1cdd15
+Author: stefanstoichkov <100233238+stefanstoichkov@users.noreply.github.com>
+Date:   Sun Apr 10 14:22:29 2022 +0200
+
+    Update README.md
+
+20.	git checkout master
+	git merge branch1
+	
+21.	git merge branch2
+	git add .
+	git commit -m "Merge branch 'branch2'"
+	Се случи конфликт при merge на branch2 кон master.
+	Конфликтот го решив така што ги додадов промените од branch2.
+	За да се изврши спојувањето било употребено recursive strategy.
+	
+22.	
